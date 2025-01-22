@@ -1,7 +1,7 @@
 This program takes as input three numbers:
-    1. The first one sets the matrix size "N"
-    2. The second one sets the scalar "c" value
-    3. The third one sets the number of threads "T"
+- the first one sets the matrix size "N"
+- the second one sets the scalar "c" value
+- the third one sets the number of threads "T"
     
 The program is then able to calulate a set of 10 random "A" matrices of size N (A1, A2, ..., A10) and a set of matrices "B" calculated from this first set (calculated as B1=cA1, B2=cA2, ..., B10=cA10).
 After the two sets have been computed it tests if the equality AiBi = BiAi; for i = 1, 2, 3, ..., 10 is true.
